@@ -13,9 +13,10 @@
 		.slider {
 			position: relative;
 			width: 800px;
-			height: 700px;
+			height: auto;
 			margin: auto;
 			overflow: hidden;
+			margin-bottom: -300px;
 		}
 
 		.slides {
@@ -1652,7 +1653,7 @@
 								sizes="(max-width: 1024px) 50vw, 716px">
 						</section>
 
-					
+
 
 
 						<div class="elementor-element elementor-element-1263daa elementor-widget__width-auto exad-sticky-section-no exad-glass-effect-no ha-has-bg-overlay elementor-widget elementor-widget-ucaddon_copy_coupon_code"
@@ -1728,14 +1729,12 @@
 					</div>
 				</div>
 			</div>
-			<div style="background-color: inherit; padding: 10px; display: inline-block;">
-				<img width="100%" height="800" src="images/111111.png"
-					class="attachment-large size-large wp-image-1716" alt=""
-					srcset="images/111111.png 716w, images/111111.png 300w"
-					sizes="(max-width: 1024px) 50vw, 716px"
-					style="background-color: inherit;">
-			</div>
+
+			
 			<div class="slider">
+				<img width="100%" height="auto" src="images/111111.png" class="attachment-large size-large wp-image-1716"
+					alt="" srcset="images/111111.png 716w, images/111111.png 300w" sizes="(max-width: 1024px) 50vw, 716px"
+					style="background-color: transparent;">
 				<div class="slides">
 					<div class="slide"><img src="images/slide1.jpeg" alt="Image 1"></div>
 					<div class="slide"><img src="images/slide2.jpeg" alt="Image 2"></div>
@@ -1743,8 +1742,9 @@
 					<div class="slide"><img src="images/slide4.jpeg" alt="Image 4"></div>
 				</div>
 				<div class="controls">
-					<button class="control-btn" id="prev"><</button>
-					<button class="control-btn" id="next">></button>
+					<button class="control-btn" id="prev">
+						<</button>
+							<button class="control-btn" id="next">></button>
 				</div>
 			</div>
 		</section>
